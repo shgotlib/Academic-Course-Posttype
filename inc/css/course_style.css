@@ -1,0 +1,53 @@
+#courses-table {
+    width: 100%;
+}
+#courses-table tr:first-child {
+    background: #f9f9ef;
+    color: #936e00;
+}
+#courses-table tr {
+    border-bottom: 1px solid #F9F9EF;
+}
+#courses-table th {
+    padding: 8px 10px 6px 10px;
+    border-right: 1px solid #e2ddc8;
+    color: #8b6802;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    vertical-align: top;
+}
+#courses-table td {
+    line-height: 14px;
+    color: #5a5847;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+td.course-enrichment {
+    text-align: center;
+    font-weight: bold;
+}
+.semester-filter, .year-filter, .degree-filter {
+    text-align: center;
+    margin: 5px 0;
+    padding: 2px 10px;
+}
+#free-search {
+    margin-bottom: 20px;
+}
+
+.course-num {
+    float: left;
+}
+.single-course-semester {
+    list-style-type: circle;
+    padding: 0;
+    margin: 0;
+}
+.syllabus {
+    margin: 20px 0;
+}
+.course-not-active {
+    position: absolute;
+    margin: 15px 0px 15px;
+}
